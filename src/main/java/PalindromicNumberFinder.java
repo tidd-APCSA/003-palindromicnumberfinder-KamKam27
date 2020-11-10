@@ -18,11 +18,11 @@ public class PalindromicNumberFinder {
         if(testPalindromicNum(i) == true){
           NP = i;
           break;
-        }else if(testPalindromicNum(i) == false){
+        }else{
           NP = 1;
         }
       }
-      return NP;
+      return NP-num;
     }
 
     // this is a helper method for searchForPalindromicNum. It's purpose is to test if a number is actually a palindrome
