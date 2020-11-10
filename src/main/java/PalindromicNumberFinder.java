@@ -26,7 +26,7 @@ public class PalindromicNumberFinder {
 
     // this is a helper method for searchForPalindromicNum. It's purpose is to test if a number is actually a palindrome
     public boolean testPalindromicNum(int num){
-      String PD - String.valueof(num);
+      String PD = Integer.toString(num);
       if(reverseNum(num).equals(PD)){
         return true;
       }else{
