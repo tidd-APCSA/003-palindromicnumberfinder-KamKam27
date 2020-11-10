@@ -17,7 +17,7 @@ public class PalindromicNumberFinder {
       for(int i = num + 1; i > num; i++){
         if(testPalindromicNum(i) == true){
           NP = i;
-        }else if(testPalindromicNum(i) == false{
+        }else if(testPalindromicNum(i) == false){
           NP = 1;
         }
       }
