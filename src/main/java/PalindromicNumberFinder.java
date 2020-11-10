@@ -17,12 +17,11 @@ public class PalindromicNumberFinder {
       for(int i = num + 1; i > num; i++){
         if(testPalindromicNum(i) == true){
           NP = i;
-          break;
         }else{
           NP = 1;
         }
       }
-      return NP;
+      return NP - num;
     }
 
     // this is a helper method for searchForPalindromicNum. It's purpose is to test if a number is actually a palindrome
