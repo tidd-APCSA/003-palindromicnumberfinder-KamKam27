@@ -38,12 +38,12 @@ public class PalindromicNumberFinder {
 
     // this is a helper method for testPalindromicNum. It should reverse the number and return it.
     public String reverseNum(int num){
-        String PR = Integer.toString(num);
-        String RW = "";
-      for( int i = PR.length() - 1; i >= 0; i--){
-      RW += PR.charAt(i);
+        String Pnum = Integer.toString(num);
+        String Rnum = "";
+      for( int i = Pnum.length() - 1; i >= 0; i--){
+            Rnum += Pnum.charAt(i);
      }
-     return RW;
+     return Rnum;
 
     }
 
